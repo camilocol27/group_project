@@ -2,18 +2,65 @@
 	margin: 0;
 	padding: 0;
 }
+
+body{
+	height: 100%;
+}
 .wallpaper{
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
-body{
-	width: 1600px;
+
+/*nav*/
+
+
+#header nav {
+    float: right;
+    overflow: hidden;
+    width: 40%;
+}
+#header nav ul .borderRight{
+    border-right: solid 1px #fff;
+}
+#header nav ul {
+     background: rgba(0,0,0,.6);
+     margin-top: 0px;
+     padding: 2%;
+     width: 96%;
+}
+#header nav ul li {
+ display: inline-block;
+ text-decoration: none;
+ width: 42%;
+ padding-left: 2%;
+ text-align: right;
+ padding-right: 5%;
+}
+#header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#header nav ul li a:hover {
+    color: lime;
+}
+#header nav .active {
+    color: lime;
+}
+
+
+/*body*/
+
+
+div.wrap{
+	width: 950px;
+	margin: 0 auto;
 	background: #ecf0f1;
 }
 h1{
 	padding-top: 35px;
 	color: #e74c3c;
-	font-size: 50px;
+	font-size: 60px;
 	font-variant: small-caps;
 	font-family: Helvetica;
 	text-align: center;
@@ -22,6 +69,7 @@ h1{
 }
 h2{
 	text-align: center;
+	color: #d35400;
 }
 .main{
 	padding: 25px;
@@ -33,40 +81,99 @@ h2{
 	box-shadow: 0 5px #2c3e50;
 	position: relative;
 	top:120px;
+	clear: both;
 }
-div{
-	width: 350px;
+
+div div.two{
+	width: 44%;
+	height: 500px;
+	float: left;
+	padding: 10px;
+	position: relative;
+	top:200px;
+	box-shadow:0 1px  #95a5a6;
+	margin: 8px;
+	margin-left: 20px;
+	
+
+}
+div div.three{
+	width: 44%;
+	height: 500px;
+	float: left;
+	padding: 10px;
+	position: relative;
+	top:200px;
+	box-shadow:0 1px  #95a5a6;
+	margin: 8px;
+	margin-left: 20px;
+	
+
+}
+div div.four{
+	width: 44%;
+	height: 700px;
+	float: left;
+	border-radius: 0 30px 0 0;
+	padding: 10px;
+	position: relative;
+	top:200px;
+	box-shadow: 0 1px  #95a5a6;
+	margin: 8px;
+	margin-left: 20px;
+	
+
+}
+div div.five{
+	width: 43%;
 	height: 700px;
 	float: left;
 	padding: 10px;
 	position: relative;
 	top:200px;
-	box-shadow: 2px 5px  #95a5a6;
+	box-shadow: 0 1px  #95a5a6;
 	margin: 8px;
 	margin-left: 20px;
-	background: #bdc3c7;
+	
 
 }
 img{
-	padding-left: 75px;
-	padding-top: 15px;
+
+	width: 80%;
+	margin-left:10%;
+	
 	
 }
 .electric{
 	position: relative;
-	top: 205px;
+	top: 185px;
 }
 .ford{
 	position: relative;
-	top: 245px;
+	top:10px;
 }
 .go-green{
 	position: relative;
-	top: 200px;
+	top: 10px;
 }
 p{
 	padding-top: 25px;
 	text-indent: 15px;
-	tex
+	text-align: justify;
+
+}
+
+/*footer*/
+
+
+#footer {
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    bottom: 0px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    position: fixed;
+    text-align: center;
+    width: 100%;
 
 }
