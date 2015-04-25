@@ -6,8 +6,22 @@
 
 body{
 	height: 100%;
+
 }
 
+/*.wall-image{
+	position: relative;
+	top: -20px;
+}*/
+.wallpaper{
+
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top:-30px;
+	width: 100%;
+	z-index: -1;
+}
 
 /*nav*/
 
@@ -62,27 +76,21 @@ body{
 	color: lime;
 }
 /*body*/
-.wallpaper{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	clear: both;
-}
 
-div.wrap{
-	width: 950px;
+.wrap{
+	max-width: 950px;
+	width: 100%;
 	margin: 0 auto;
 	background: #ecf0f1;
 }
 h1{
-	padding-top: 35px;
+	padding-top: 25px;
 	color: #e74c3c;
 	font-size: 60px;
 	font-variant: small-caps;
 	font-family: Helvetica;
 	text-align: center;
-	position: relative;
-	top: 70px;
+	width: 100%;
 }
 h2{
 	text-align: center;
@@ -162,6 +170,8 @@ img{
 	
 }
 .electric{
+	
+	
 	position: relative;
 	top: 185px;
 }
@@ -213,7 +223,7 @@ p a{
 	text-decoration: underline;
 	clear: both;
 }
-div#footer {
+#footer {
 	background: rgba(0, 0, 0, .8);
 	color: #fff;
 	bottom: 0px;
@@ -221,7 +231,7 @@ div#footer {
 	padding-top: 2%;
 	position: fixed;
 	text-align: center;
-	width: 100%;
-	clear: both;
+	width: 100%;S
+	z-index: 1;
 
 }
